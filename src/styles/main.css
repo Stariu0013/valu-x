@@ -1,0 +1,35 @@
+body {
+    max-width: 1440px;
+    max-height: 900px;
+}
+
+.container {
+    width: 100%;
+
+    display: grid;
+    grid-template: 'h h h ' 300px
+                    'm c a' 300px
+                    'f f f' 300px
+
+;
+}
+
+.header {
+    grid-area: h;
+}
+
+.menu {
+    grid-area: m
+}
+
+.content {
+    grid-area: c;
+}
+
+.add {
+    grid-area: a
+}
+
+.footer {
+    grid-area: f;
+}
